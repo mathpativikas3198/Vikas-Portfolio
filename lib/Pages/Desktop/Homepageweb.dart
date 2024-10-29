@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/Widgets/Desktop/AppBar/CustomAppBar.dart';
 import 'package:portfolio/Widgets/Desktop/AppBar/CustomAppBar.dart';
+import 'package:portfolio/Widgets/Desktop/Experiance/ExperianceSection.dart';
 import 'package:portfolio/Widgets/Desktop/Info/InfoSection.dart';
+import 'package:portfolio/Widgets/Desktop/Knowledge/KnowledgeSection.dart';
 import 'package:portfolio/Widgets/Desktop/MyServices/MyServiceSection.dart';
 import 'package:portfolio/Widgets/Desktop/MySkillSection/MySkillSection.dart';
 
@@ -18,8 +20,9 @@ class Homepageweb extends StatelessWidget {
         // SizedBox(height: 100),
         // MyServiceSection(),
         // SizedBox(height: 100),
-        MySkillsSection(),
-        
+       // MySkillsSection(),
+        //KnowledgeSection()
+        ExperianceSection()
 
         ]
     ) );
