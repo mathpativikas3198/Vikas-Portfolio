@@ -1,5 +1,6 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
+import 'package:portfolio/Widgets/Buttons/MyTextButton.dart';
 
 class InternshipWidget extends StatelessWidget {
     final String date;
@@ -44,7 +45,13 @@ class InternshipWidget extends StatelessWidget {
               children: [
                 Flexible(child: Text(description,style: Theme.of(context).textTheme.labelMedium,)),
               ],
-            )
+            ),
+             SizedBox(height: 10,),
+             Row(
+               children: [
+                 MyTextButton(btnName: "RECOMMANDATION >", onTap: (){}),
+               ],
+             )
           ],
         );
 
