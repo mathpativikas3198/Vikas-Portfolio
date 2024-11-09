@@ -14,7 +14,7 @@ class KnowledgeSection extends StatelessWidget {
     return Container(
       color: Theme.of(context).colorScheme.primaryContainer,
       child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 50),
+          padding: EdgeInsets.symmetric(horizontal: 200, vertical: 50),
           child: Column(
             children: [
               Text(

@@ -7,31 +7,34 @@ class SoftwareSkills extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            Text(
-              "Software",
-              style: Theme.of(context).textTheme.bodyLarge,
-            ),
-            SizedBox( height: 50,)
-          ],
-        ),
-        MyLinearPercentageIndicator(skillsname: "MS Office", label: "90%", value: 0.9),
-        SizedBox(height: 30),
-        MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
-        SizedBox(height: 30),
-        MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
-        SizedBox(height: 30),
-        MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
-        SizedBox(height: 30),
-        MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
-        SizedBox(height: 20),
-        MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
-       
-      ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Text(
+                "Software",
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+              SizedBox( height: 50,)
+            ],
+          ),
+          MyLinearPercentageIndicator(skillsname: "MS Office", label: "90%", value: 0.9),
+          SizedBox(height: 30),
+          MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
+          SizedBox(height: 30),
+          MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
+          SizedBox(height: 30),
+          MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
+          SizedBox(height: 30),
+          MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
+          SizedBox(height: 20),
+          MyLinearPercentageIndicator(skillsname: "MS Power Point", label: "80%", value: 0.8),
+         
+        ],
+      ),
     );
   }
 }
